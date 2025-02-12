@@ -1,0 +1,311 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+html {
+  overflow-y: scroll; /* Forces scrollbar even if not needed */
+}
+.container-1 {
+  display:flex;
+  justify-content:center;
+  gap:6rem;
+}
+.nav {
+  display:flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color:#495e57;
+}
+.nav ul {
+  display:flex;
+  gap:3rem;
+  list-style: none;
+}
+.nav li a{
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+.container-2{
+  display:flex;
+  height: 23rem;
+  width: 100%;
+  justify-content: center;
+  background-color: #495e57;
+}
+
+.container-2 .image img {
+  border-radius: 2rem;
+}
+.image img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.image{
+  overflow:hidden;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.pres{
+  display:flex;
+  flex-direction: column;
+  width: 10%;
+}
+ .pres .little_lemon {
+  color:#f4ce14;
+  height: 0rem;
+  font-size: 2rem;
+}
+.container-3 p.little_lemon{
+  color:#f4ce14;
+  font-size: 2rem;
+  max-height: 0.5rem;
+  margin-top:1rem;
+}
+
+.container-3 p.chicago {
+  color:black;
+  font-size: 1.7rem;
+  max-height: 0.5rem;
+}
+.pres h2 {
+  color:white;
+}
+.pres .chicago {
+  color:white;
+  font-size: 1.5rem;
+}
+.pres p {
+  color:white;
+}
+.pres button{
+  background-color: white;
+  border:1rem solid white;
+  border-radius: 3rem;
+  color:#495e57;
+  font-size: 1rem;
+}
+.specials {
+  color:#495e57;
+}
+.pres button a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline */
+  list-style: none;
+}
+.cl {
+  width:22rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+.cl img {
+  width:100%;
+  max-width:22rem;
+  max-height: 15rem;
+  object-fit: cover;
+  height: auto;
+  border-top-left-radius:1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.main-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap:2rem;
+  margin-bottom: 1rem;
+}
+.price {
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width:18rem;
+}
+.cl p {
+  width:100%;
+  max-width: 18rem;
+  margin:1rem 0;
+  color:gray;
+}
+.cl button  {
+  width:100%;
+  max-width: 18rem;
+  border:none;
+  background-color: #F6F6F6;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom:2rem;
+}
+.cl .temp button:hover {
+cursor:pointer;
+color:white;
+}
+.cl .temp button a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none
+}
+
+.temp {
+  background-color: #F6F6F6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height:2rem;
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  background-color: #495e57;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+}
+.footer img {
+  max-width: 33%;
+  max-height: 30rem;
+}
+.footer .wtf{
+  width: fit-content;
+  height: fit-content;
+}
+.footer .map p a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+.nav ul li a:hover {
+  color: yellowgreen;
+}
+.nav ul li a.active {
+  color: yellowgreen !important;
+}
+.pres button:hover {
+cursor:pointer;
+background-color:white;
+border:1rem solid white;
+color:#006400;
+}
+.main {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap:3rem;
+}
+
+.container-3 p {
+  width:40rem;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.image-2  {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 1.5rem;
+}
+.image-2 img {
+  height: 20rem;
+}
+.general {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.form{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:3rem;
+  width: fit-content;
+  border:5px solid #495e57;
+  padding:1rem;
+  border-radius: 1rem;
+}
+.form .options {
+  display:flex;
+  gap:0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.form .options input {
+  width:20rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.form .options select {
+  width:20rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.book {
+  font-family: 'Roboto', sans-serif;
+  color:#495e57;
+}
+.form input {
+  width:20rem;
+  height: 2rem;
+  border:1px solid gray;
+  border-radius: 0.5rem;
+}
+.form .submit {
+  font-size: 1.5rem;
+  height: 3rem;
+  color:white;
+  background-color: #495e57;
+  cursor:pointer;
+}
+.form .submit:hover{
+  color:yellowgreen;
+}
+.form .options label {
+  font-size: 1.1rem;
+}
+.menu_markers {
+ text-align:center;
+ margin-right:62rem;
+ font-family: 'Roboto', sans-serif;
+ color:#495e57;
+}
+.our_menu {
+  font-family: 'Roboto', sans-serif;
+  color:#495e57;
+}
+.main-content-2 {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap:2rem;
+  margin-bottom: 1rem;
+}
+.main-content-2 .cl .temp {
+height:14rem;
+}
+.container-4 {
+  display:flex;
+  justify-content: center;
+}
+.container-4 .form{
+  display: flex;
+  gap:3rem;
+
+}
+.options-2 {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:0.5rem;
+}
