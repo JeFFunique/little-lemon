@@ -19,7 +19,7 @@ function Footer() {
     <h2>CONTACT US</h2>
     <p>123 Where Am I Street
     No Where, NW 00001</p>
-    <p>CSR@littlelemon.com</p>
+    <p><a href="mailto:CSR@littlelemon.com">CSR@littlelemon.com</a></p>
 </div>
 </div>
     );

@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import './App.css';
 import { useState } from "react";
 function Login() {
@@ -38,6 +39,7 @@ const handleSubmit = (e) => {
 <input type="submit" className="submit" aria-label="On Click" value="Login"/>
 </form>
 </div>
+<Footer/>
 </>
     );
 }

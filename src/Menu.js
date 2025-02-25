@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import './App.css';
 import bruchetta from '../src/assets/bruchetta.svg';
 import tomato_soup from '../src/assets/tomato_soup.webp';
@@ -156,7 +157,7 @@ function Menu() {
         </div>
 
         </div>
-        
+        <Footer/>
 </>
     );
 }
