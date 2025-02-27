@@ -4,7 +4,7 @@ Bienvenue sur le site web du **restaurant Little Lemon** ! Ce projet met en avan
 
 ## 🌍 Démo en ligne  
 🚀 Découvrez la version en ligne du site hébergé sur **Vercel** :  
-👉 [Site Web Little Lemon](https://little-lemon-taupe-omega.vercel.app/)  
+👉 [Site Web Little Lemon](https://little-lemon-beige-three.vercel.app/)  
 ## 📸 Aperçu  
 ![image](https://github.com/user-attachments/assets/968565a6-2909-4514-8e81-241f9fcf09ec)
 ## 🛠️ Technologies utilisées  
