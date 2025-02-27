@@ -15,7 +15,6 @@ function Footer() {
     </div>
     <div className='part'>
     <p><Link to="/booking">Reservations</Link></p>
-    <p><Link to="/order-online">Order Online</Link></p>
     <p><Link to="/login">Login</Link></p>
     </div>
 </div>

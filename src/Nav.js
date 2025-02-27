@@ -9,7 +9,6 @@ function Nav() {
         <li><Link to="/about" className={location.pathname==="/about" ? "active" : ""}><b>About</b></Link></li>
         <li><Link to="/menu" className={location.pathname==="/menu" ? "active" : ""}><b>Menu</b></Link></li>
         <li><Link to="/booking" className={location.pathname==="/booking" ? "active" : ""}><b>Reservations</b></Link></li>
-        <li><Link to="/order-online" className={location.pathname==="/order-online" ? "active" : ""}><b>Order Online</b></Link></li>
         <li><Link to="/login" className={location.pathname==="/login" ? "active" : ""}><b>Login</b></Link></li>
     </ul>
     </div>
