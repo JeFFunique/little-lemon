@@ -35,7 +35,7 @@ return (
 <h4>$12.99</h4>
 </div>
 <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
-<button><Link to="/order-online"><b>Order a delivery!</b></Link></button>
+<button><Link to="/booking"><b>Order a delivery!</b></Link></button>
 </div>
 </div>
 <div className="cl">
@@ -46,7 +46,7 @@ return (
 <h4>$5.99</h4>
 </div>
 <p>Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. It tastes so good!</p>
-<button><Link to="/order-online"><b>Order a delivery!</b></Link></button>
+<button><Link to="/booking"><b>Order a delivery!</b></Link></button>
 </div>
 </div>
 <div className="cl">
@@ -57,7 +57,7 @@ return (
 <h4>$5.00</h4>
 </div>
 <p>This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined,you have to taste it!</p>
-<button><Link to="/order-online"><b>Order a delivery!</b></Link></button>
+<button><Link to="/booking"><b>Order a delivery!</b></Link></button>
 </div>
 </div>
 </div>
