@@ -17,8 +17,8 @@ Bienvenue sur le site web du **restaurant Little Lemon** ! Ce projet met en avan
 ✅ Animations personnalisées pour une expérience utilisateur interactive  
 ✅ Design responsive adapté aux mobiles, tablettes et ordinateurs  
 ✅ Menu dynamique mettant en avant les spécialités du restaurant  
-✅ Form permettant de réserver une table à distance
-✅ Page permettant de commander des plats à distance
+✅ Form permettant de réserver une table à distance  
+✅ Page permettant de commander des plats à distance  
 
 ## 🔧 Installation & Configuration  
 1. Clone ce dépôt GitHub :  
